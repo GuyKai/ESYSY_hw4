@@ -1,14 +1,14 @@
-## ESYS_HW4
+# ESYS_HW4
 
 B07901123
 
-# mbed_app.jason,pretty_printer.h
+## mbed_app.jason,pretty_printer.h
 按講義更改
 
-# ButtonService.h,main.cpp
+## ButtonService.h,main.cpp
 在範例的server下加入IDstage(0xA002)和ledstage(0xA003)兩個characteristic，定義其資料類別及新增所需功能。
 
-# stm_pi_BT.py
+## stm_pi_BT.py
 由上一個作業更改而成。
 連接後打開按鈕characteristic(0xA002)的notify，並提供read/ledon/ledoff/finish功能。
 
